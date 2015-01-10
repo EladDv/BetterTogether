@@ -26,7 +26,7 @@ namespace BetterTogether
 		public Vector2[] uv;
 		public int[] triangles;
 
-		void ()
+		void Awake ()
 		{
 			Gobject = SpaceCenter.Instance.gameObject;
 			Gobject.AddComponent<Hex> ();
